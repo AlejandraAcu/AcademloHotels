@@ -1,0 +1,19 @@
+
+.reviews__title{
+    color: #ea4959;
+    }
+
+
+.reviews__btn{
+    display: block;
+    padding: 0.8em 1.5em;
+    border-radius: 0.8em;
+    background-color: #ea4959;
+    color: #fff;
+    font-weight: 700;
+    filter: grayscale(0.3);
+    transition: filter 0.5s ease;
+    &:hover {
+        filter: grayscale(0);
+    }        
+}
