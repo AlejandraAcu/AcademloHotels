@@ -12,8 +12,6 @@ const Reviews = ({ hotelId }) => {
     getReviewsHotel(url);
   }, [hotelId]);
 
-  console.log(reviewsHotel);
-
   const handleReviews = () => {
     setVisibleComments((prevCount) => prevCount + 5);
   };

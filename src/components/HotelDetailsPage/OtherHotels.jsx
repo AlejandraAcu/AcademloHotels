@@ -13,8 +13,6 @@ const OtherHotels = ({ city, id }) => {
     }
   }, [city]);
 
-  console.log(hotelsByCity);
-
   return (
     <section>
       <h3 className="other__title">

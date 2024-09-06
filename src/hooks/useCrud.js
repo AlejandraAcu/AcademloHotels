@@ -25,7 +25,6 @@ const useCrud = () => {
 		axios
 			.post(url, data, withToken ? getConfigToken() : {})
 			.then((res) => {
-				console.log(res.data);
 				setResponse(response ? [...response, res.data] : [res.data]);
 			})
 			.catch((err) => {
@@ -43,7 +42,6 @@ const useCrud = () => {
 		axios
 			.delete(url, withToken ? getConfigToken() : {})
 			.then((res) => {
-				console.log(res.data);
 				setResponse(response.filter((item) => item.id !== id));
 			})
 			.catch((err) => {

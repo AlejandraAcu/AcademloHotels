@@ -18,8 +18,6 @@ const HotelDetailsPage = () => {
     getHotel(url);
   }, [id]);
 
-  console.log(hotel);
-
   return (
     <section className="details">
       <div className="details__title-container">
