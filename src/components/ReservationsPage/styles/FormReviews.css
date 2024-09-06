@@ -17,6 +17,7 @@
 }
 
 .review {
+	height: 39em;
 	max-width: 30em;
 	background-color: #ffffffe6;
 	padding: 2em 2em 3em;
@@ -50,7 +51,7 @@
 	margin-bottom: 1em;
 	.review__reserve-image {
 		display: block;
-		width: 70%;
+		width: 60%;
 		aspect-ratio: 1.3;
 		object-fit: cover;
 		border-radius: 0.8em;
