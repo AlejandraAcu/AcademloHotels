@@ -3,9 +3,8 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	min-height: 100vh;
+	min-height: 90vh;
 	padding: 1em;
-	background-color: #0003;
 	z-index: 3;
 	flex-direction: column;
 	backdrop-filter: blur(1.5px);
@@ -20,7 +19,7 @@
 	height: 39em;
 	max-width: 30em;
 	background-color: #ffffffe6;
-	padding: 2em 2em 3em;
+	padding: 1.5em 2em 3em;
 	border-radius: 0.8em;
 	position: relative;
 	.review__close {
@@ -59,7 +58,7 @@
 	}
 
 	.review__reserve-title {
-		font-size: 1.2em;
+		font-size: 1.1em;
 		margin: 0.5em 0;
 	}
 
@@ -74,6 +73,7 @@
 
 .review__form {
 	gap: 1em;
+	font-size: 0.95em;
 	.review__form-textarea {
 		resize: none;
 	}
