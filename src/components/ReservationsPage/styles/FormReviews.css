@@ -16,7 +16,7 @@
 }
 
 .review {
-	height: 39em;
+	height: 37em;
 	max-width: 30em;
 	background-color: #ffffffe6;
 	padding: 1.5em 2em 3em;
@@ -40,6 +40,7 @@
 	}
 
 	.review__title {
+		font-size: 1.3em;
 		text-align: center;
 		margin-bottom: 1em;
 		color: #fa4040;
@@ -65,6 +66,7 @@
 	.review__reserve-item {
 		margin-bottom: 0.2em;
 		.review__reserve-label {
+			font-size: 0.9em;
 			font-weight: 600;
 			margin-right: 0.5em;
 		}
@@ -84,7 +86,7 @@
 		padding: 0.6em 1.5em;
 		border-radius: 0.8em;
 		background-color: #fa4040;
-		color: #fff;
+		color: white;
 		font-weight: 700;
 		filter: grayscale(0.3);
 		transition: filter 0.5s ease;
